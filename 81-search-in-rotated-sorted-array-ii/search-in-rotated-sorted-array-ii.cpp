@@ -6,10 +6,10 @@ public:
         
         int right_boundary = n - 1;
         
-        // 1. Trimming duplicates from the end
-        while(right_boundary > 0 && nums[right_boundary] == nums[0]) {
-            right_boundary--;
-        }
+        // // 1. Trimming duplicates from the end
+        // while(right_boundary > 0 && nums[right_boundary] == nums[0]) {
+        //     right_boundary--;
+        // }
 
         // 2. Find Pivot (sabse chota element)
         int pivot = 0; 
