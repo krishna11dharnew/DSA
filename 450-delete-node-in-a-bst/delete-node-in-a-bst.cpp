@@ -23,8 +23,8 @@ class Solution {
     if(root->left == NULL)
         return root->right;
 
-    if(root->right == NULL)
-        return root->left;
+    // if(root->right == NULL)
+    //     return root->left;
         TreeNode* rightchild=root->right;
         TreeNode* lastright=rightchi(root->left);
         lastright->right=rightchild;
